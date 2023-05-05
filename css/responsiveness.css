@@ -1,0 +1,29 @@
+@media screen and (max-width:835px) {
+    .s-2-3-overlay {
+        flex-direction: column;
+    }
+    body {
+        padding: 1em;
+    }
+    .camstnhd-link {
+        display: none;
+    }
+    .s-2, .s-3 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:835px) {
+
+    .s-2-3-overlay {
+        flex-direction: row;
+        flex-wrap:wrap ;
+    }
+    .s-2, .s-3 {
+        width:50%;
+    }
+    body {
+        padding: 5em;
+        padding-top: 2em;
+    }
+}

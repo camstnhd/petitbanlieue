@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400&family=Marcellus&display=swap');
+@import url('animations.css');
+@import url('responsiveness.css');
+body {
+    background-color: #132132;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+}
+
+nav {
+    height: 4em;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.button:hover {
+    animation-name: link;
+    animation-duration: .5s;
+}
+
+.lang-buttons {
+    float: left;
+    vertical-align: middle;
+    height: .2em;
+}
+
+.lang-fr {
+border-right: 1px solid white;
+}
+
+.camstnhd-link {
+    float: right;
+    font-family: 'Marcellus', serif;
+    background-color: #060D25;
+    border-radius: 4em;
+    width: 1.25em;
+    text-decoration: none;
+    padding: .25em;
+    font-size: 2.5em;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+}
+
+.s-1-h1 {
+    font-size: 2.25em;
+    font-family: 'Marcellus', serif;
+    color: #C6CDDA;
+    padding: 0;
+    margin: 0;
+}
+.s-1-pg-1 {
+    padding: 0;
+    margin: 0;
+    max-width: 28em;
+    height: min-content;
+    font-weight: 300;
+    font-size: 1.25em;
+}
+.s-1-pg-2 {
+    font-weight: 500;
+    margin-top:1em;
+    padding:0;
+    font-size: 1.25em;
+}
+
+.camstnhd-link-2 {
+    text-decoration: underline;
+    color: white;
+}
+
+.s-2-3-overlay {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.s-2 {
+    height: 13em;
+}
+
+.s-2-h2 {
+    font-size: 1.35em;
+}
+
+.s-2-pg-1 {
+    padding-left: 1em;
+    border-left: .75px solid white;
+    font-size: 1em;
+    width: 85%;
+}
+
+.s-3 {
+    height: 13em;
+}
+.s-3-h2 {
+    font-size: 1.35em;
+}
+.s-3-pg-1 {
+    padding-left: 1em;
+    border-left: .75px solid white;
+    font-size: 1em;
+    width: 85%;
+}
+
+.s-3-ul {
+    list-style-type: '▸ ';
+    line-height: 1.5em;
+    opacity: 85%;
+    color: rgb(166, 174, 174);
+}
+.s-4-titles {
+    max-width: 36em;
+    padding-top: 5em;
+}
+
+.s-4-h1 {
+    font-size: 2.25em;
+    font-family: 'Marcellus', serif;
+    color: #C6CDDA;
+    padding: 0;
+    margin: 0;
+}
+.s-4-pg-1 {
+    font-size: 1.25em;
+    margin-left: .25em;
+}
+
+.modelframe {
+    width: 100%;
+    height: 40em;
+    border-radius: 1em;
+    margin-top: .5em;
+    resize: vertical;
+}

@@ -1,0 +1,9 @@
+@keyframes link {
+    100% {color: rgb(231, 194, 122);}
+}
+
+.camstnhd-link:hover, .camstnhd-link-2:hover {
+    animation-name: link;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
